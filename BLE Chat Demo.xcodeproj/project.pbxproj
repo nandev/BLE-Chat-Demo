@@ -11,6 +11,10 @@
 		46DE87D61C123939003B0630 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DE87D51C123939003B0630 /* main.m */; };
 		46DE87D81C123939003B0630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46DE87D71C123939003B0630 /* Assets.xcassets */; };
 		46DE87DB1C123939003B0630 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46DE87D91C123939003B0630 /* MainMenu.xib */; };
+		46DE87E31C1254C8003B0630 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46DE87E21C1254C8003B0630 /* IOBluetooth.framework */; };
+		46DE87E51C1254D9003B0630 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46DE87E41C1254D9003B0630 /* Cocoa.framework */; };
+		46DE87E91C1258F7003B0630 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DE87E81C1258F7003B0630 /* Person.m */; };
+		46DE87ED1C1629E1003B0630 /* icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 46DE87EC1C1629E1003B0630 /* icon.iconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,11 @@
 		46DE87D71C123939003B0630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46DE87DA1C123939003B0630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		46DE87DC1C123939003B0630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46DE87E21C1254C8003B0630 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		46DE87E41C1254D9003B0630 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		46DE87E71C1258F7003B0630 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = "BLE Chat Demo/Person.h"; sourceTree = "<group>"; };
+		46DE87E81C1258F7003B0630 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = "BLE Chat Demo/Person.m"; sourceTree = "<group>"; };
+		46DE87EC1C1629E1003B0630 /* icon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = icon.iconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46DE87E51C1254D9003B0630 /* Cocoa.framework in Frameworks */,
+				46DE87E31C1254C8003B0630 /* IOBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +48,10 @@
 		46DE87C51C123939003B0630 = {
 			isa = PBXGroup;
 			children = (
+				46DE87E71C1258F7003B0630 /* Person.h */,
+				46DE87E81C1258F7003B0630 /* Person.m */,
+				46DE87E41C1254D9003B0630 /* Cocoa.framework */,
+				46DE87E21C1254C8003B0630 /* IOBluetooth.framework */,
 				46DE87D01C123939003B0630 /* BLE Chat Demo */,
 				46DE87CF1C123939003B0630 /* Products */,
 			);
@@ -66,6 +81,7 @@
 		46DE87D41C123939003B0630 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				46DE87EC1C1629E1003B0630 /* icon.iconset */,
 				46DE87D51C123939003B0630 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -130,6 +146,7 @@
 			files = (
 				46DE87D81C123939003B0630 /* Assets.xcassets in Resources */,
 				46DE87DB1C123939003B0630 /* MainMenu.xib in Resources */,
+				46DE87ED1C1629E1003B0630 /* icon.iconset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46DE87E91C1258F7003B0630 /* Person.m in Sources */,
 				46DE87D61C123939003B0630 /* main.m in Sources */,
 				46DE87D31C123939003B0630 /* AppDelegate.m in Sources */,
 			);
