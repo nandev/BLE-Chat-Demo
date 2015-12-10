@@ -8,7 +8,7 @@
 //  terms of the MIT license
 
 #import "AppDelegate.h"
-#import "Person.h"
+
 
 @interface AppDelegate (){
     CBCentralManager *manager;
